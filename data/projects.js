@@ -3,7 +3,7 @@ export const projects = [
     title: 'Juicer',
     link: 'https://juicer.io',
     image: 'juicer',
-    description: "Juicer is an embeddable social media aggregation tool. It allows you display all of your companies social media posts in a beautiful feed that automatically updates. We sold Juicer to <a href='https://saas.group'>SaaS.group</a>. You can read more about the acquisition process <a href='https://www.goddamnyouryan.com/blog/selling-juicer/'>here</a>.",
+    description: "Juicer is an embeddable social media aggregation tool. It allows you display all of your company's social media posts in a beautiful feed that automatically updates. We sold Juicer to <a href='https://saas.group'>SaaS.group</a>. You can read more about the acquisition process <a href='https://www.goddamnyouryan.com/blog/selling-juicer/'>here</a>.",
   },
   {
     title: 'Payote',
