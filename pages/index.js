@@ -29,9 +29,7 @@ export default function Home() {
             <br />
             Web and iOS programmer with an eye for design and UX.
             <br />
-            I love talking to customers and solving their problems.
-            <br />
-            And building products that are simple and beautiful.
+            I love building things that are simple and beautiful.
           </p>
           <ul>
             {links.map((link, i) => <li key={i}>
