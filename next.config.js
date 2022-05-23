@@ -6,6 +6,11 @@ module.exports = {
         destination: 'https://v3.goddamnyouryan.com/blog/:path',
         permanent: true,
       },
+      {
+        source: '/blog',
+        destination: 'https://v3.goddamnyouryan.com/blog',
+        permanent: true,
+      },
     ]
   },
 }
