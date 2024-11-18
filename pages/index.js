@@ -20,7 +20,7 @@ export default function Home() {
         <h2 className='divider'>--</h2>
 
         <ul>
-          {projects.sort((a,b) => b.year - a.year).map((project, index) => <Project project={project} key={index} />)}
+          {projects.map((project, index) => <Project project={project} key={index} />)}
         </ul>
 
         <div className='footer'>
