@@ -14,8 +14,10 @@ export default function Resume() {
               <h2>Product-Minded Programmer</h2>
             </div>
             <ul>
-              <li>ryan@goddamnyouryan.com</li>
-              <li>ryanmacinnes.org</li>
+              <li>ryan@m.acinn.es</li>
+              <li>
+                <a href='https://m.acinn.es'>m.acinn.es</a>
+              </li>
             </ul>
           </div>
         </header>

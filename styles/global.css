@@ -50,6 +50,17 @@ h1 {
   text-decoration: none;
 }
 
+.projectDescription, .projectTechList {
+  display: inline;
+}
+
+.projectTechListItem {
+  background: #eee;
+  display: inline;
+  padding: 2px;
+  margin-left: 5px;
+}
+
 .footer p, .footer ul {
   margin-bottom: 15px;
 }
