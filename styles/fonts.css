@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Cera Pro';
   src: local('CeraPro-Bold'),
-      url('../fonts/CeraPro-Bold.woff2') format('woff2'),
-      url('../fonts/CeraPro-Bold.woff') format('woff');
+      url('../fonts/CeraPRO-Bold.woff2') format('woff2'),
+      url('../fonts/CeraPRO-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -11,8 +11,8 @@
 @font-face {
   font-family: 'Cera Pro';
   src: local('CeraPro-Regular'),
-      url('../fonts/CeraPro-Regular.woff2') format('woff2'),
-      url('../fonts/CeraPro-Regular.woff') format('woff');
+      url('../fonts/CeraPRO-Regular.woff2') format('woff2'),
+      url('../fonts/CeraPRO-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
