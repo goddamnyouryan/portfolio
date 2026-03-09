@@ -52,7 +52,7 @@ export const projects = [
     year: 2014,
     link: 'https://juicer.io',
     image: 'juicer',
-    description: "Juicer is an embeddable social media aggregation tool that displays your company’s social media posts in a beautifully designed, automatically updating feed. We successfully sold Juicer to <a href='https://saas.group'>SaaS.group</a>, and you can read more about the acquisition process <a href='https://www.goddamnyouryan.com/blog/selling-juicer/'>here</a>.",
+    description: "Juicer is an embeddable social media aggregation tool that displays your company’s social media posts in a beautifully designed feed. We successfully sold Juicer to <a href='https://saas.group'>SaaS.group</a>, and you can read more about the acquisition process <a href='https://www.goddamnyouryan.com/blog/selling-juicer/'>here</a>.",
     tech: ['Ruby on Rails', 'Javascript', 'PostgresSQL']
   },
   {
