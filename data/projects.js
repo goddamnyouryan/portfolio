@@ -8,22 +8,6 @@ export const projects = [
     tech: ['React', 'Ruby on Rails', 'PostgresSQL']
   },
   {
-    title: 'Polyfill',
-    year: 2022,
-    link: 'https://polyfill.work',
-    image: 'polyfill',
-    description: 'Polyfill is a platform designed to connect developers with jobs they’re passionate about while helping employers find their ideal candidates.',
-    tech: ['NextJS', 'Ruby on Rails']
-  },
-  {
-    title: 'Cookmatic',
-    year: 2021,
-    link: 'https://cookmatic.co',
-    image: 'cookmatic',
-    description: 'Cookmatic was born from my love of cooking and my struggle to plan recipes and grocery shop efficiently. It lets you save any recipe URL from the internet, parses the ingredients, and generates a grocery list to make shopping easier.',
-    tech: ['iOS', 'Swift']
-  },
-  {
     title: 'Tweeker',
     year: 2020,
     link: 'https://tweeker.io',
