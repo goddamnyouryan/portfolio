@@ -5,7 +5,7 @@ import Meta from '../components/meta'
 
 export default function Home() {
   return <>
-      <Meta title='Ryan MacInnes - Product-Minded Programmer and Founder' />
+      <Meta title='Ryan MacInnes - Trying to make the world a little better' />
       <main className='container'>
         <header className='header'>
           <a href='/' className='logo'>
@@ -13,7 +13,7 @@ export default function Home() {
           </a>
           <div>
             <h1>Ryan MacInnes</h1>
-            <h2>Product-Minded Programmer</h2>
+            <h2>Trying to make the world a little better.</h2>
           </div>
         </header>
 
@@ -29,9 +29,11 @@ export default function Home() {
           <p>
             --
             <br />
-            Web and iOS programmer with an eye for design and UX.
+            The goal of technology is usually to make life easier.
             <br />
-            I love building things that are simple and beautiful.
+            I don’t think easier always means better.
+            <br />
+            I want to build things that make life better, not just easier.
           </p>
           <ul>
             {links.map((link, i) => <li key={i}>
@@ -39,7 +41,7 @@ export default function Home() {
             </li>)}
           </ul>
           <p>
-            <a href='mailto:ryan@goddamnyouryan.com'>ryan@goddamnyouryan.com</a>
+            <a href='mailto:ryan@macinnes.co'>ryan@macinnes.co</a>
           </p>
         </div>
       </main>
