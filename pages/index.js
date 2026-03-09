@@ -13,7 +13,7 @@ export default function Home() {
           </a>
           <div>
             <h1>Ryan MacInnes</h1>
-            <h2>Trying to make the world a little better.</h2>
+            <h2>Trying to make the world slightly better.</h2>
           </div>
         </header>
 
