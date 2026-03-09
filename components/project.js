@@ -8,11 +8,11 @@ const Project = ({ project }) => <li className='projectListItem'>
     </a>
     <h3>
       <p className='projectDescription' dangerouslySetInnerHTML={{__html: project.description }} />
-      <ul className='projectTechList'>
+      {/* <ul className='projectTechList'>
         {project.tech.map((tech, index) =>
           <li className='projectTechListItem' key={index}>{tech}</li>
         )}
-      </ul>
+      </ul> */}
     </h3>
     {project.link &&
       <h4>

@@ -1,19 +1,27 @@
 export const projects = [
   {
-    title: 'Link Horse',
+    title: 'vid2pod',
+    year: 2026,
+    link: 'https://vid2pod.fm',
+    image: 'vid2pod',
+    description: 'A lot of the YouTube videos I end up watching are 45 minutes of someone looking at a camera and talking. I realized it would be better to listen to them in audio form, not in front of a screen. Same with tiktok too. I built vid2pod to make it super easy to create your own podcast and listen to it in your podcast player of choice. i also built an app so you can easily add new videos to your podcast.',
+    tech: ['React', 'Ruby on Rails', 'iOS', 'SwiftUI', 'AI Coding']
+  },
+  {
+    title: 'Linkhorse',
     year: 2023,
     link: 'https://link.horse',
     image: 'link-horse',
-    description: 'I created Link Horse as a personal solution to organize my bookmarks and access them from any computer. I built it all in a few days, including a bookmarklet feature that makes saving new links really easy. I use it every day.',
-    tech: ['React', 'Ruby on Rails', 'PostgresSQL']
+    description: 'I created Linkhorse as a personal solution to organize my bookmarks and access them from any computer or phone. I use it every day. I also created an app which makes it easy to save links. Essentially a personal knowledge database.',
+    tech: ['React', 'Ruby on Rails', 'PostgresSQL', 'iOS', 'SwiftUI']
   },
   {
     title: 'Tweeker',
     year: 2020,
     link: 'https://tweeker.io',
     image: 'tweeker',
-    description: 'Tweeker is an embeddable A/B testing tool that simplifies setting up a/b tests on your site, analyzing results, and identifying the best-performing variants.',
-    tech: ['React', 'PostgresSQL']
+    description: 'Tweeker is an embeddable A/B testing tool that simplifies setting up a/b tests on your site, allowing you to make changes and see what drives more traffic and engagement.',
+    tech: ['React', 'Ruby on Rails', 'PostgresSQL']
   },
   {
     title: 'Payote',
@@ -36,7 +44,7 @@ export const projects = [
     year: 2014,
     link: 'https://juicer.io',
     image: 'juicer',
-    description: "Juicer is an embeddable social media aggregation tool that displays your company’s social media posts in a beautifully designed feed. We successfully sold Juicer to <a href='https://saas.group'>SaaS.group</a>, and you can read more about the acquisition process <a href='https://www.goddamnyouryan.com/blog/selling-juicer/'>here</a>.",
+    description: "Juicer is an embeddable social media aggregation tool that displays your social media posts in a beautifully designed feed. We successfully sold Juicer to <a href='https://saas.group'>SaaS.group</a>, and you can read more about the acquisition process <a href='https://www.goddamnyouryan.com/blog/selling-juicer/'>here</a>.",
     tech: ['Ruby on Rails', 'Javascript', 'PostgresSQL']
   },
   {
