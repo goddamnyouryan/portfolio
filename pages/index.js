@@ -1,11 +1,12 @@
 import { projects } from '../data/projects'
 import { links } from '../data/links'
+import { tagline, email } from '../data/site'
 import Project from '../components/project'
 import Meta from '../components/meta'
 
 export default function Home() {
   return <>
-      <Meta title='Ryan MacInnes - Trying to make the world a little better' />
+      <Meta title={`Ryan MacInnes - ${tagline}`} />
       <main className='container'>
         <header className='header'>
           <a href='/' className='logo'>
@@ -13,7 +14,7 @@ export default function Home() {
           </a>
           <div>
             <h1>Ryan MacInnes</h1>
-            <h2>Trying to make the world slightly better.</h2>
+            <h2>{tagline}</h2>
           </div>
         </header>
 
@@ -41,7 +42,7 @@ export default function Home() {
             </li>)}
           </ul>
           <p>
-            <a href='mailto:ryan@macinnes.co'>ryan@macinnes.co</a>
+            <a href={`mailto:${email}`}>{email}</a>
           </p>
         </div>
       </main>

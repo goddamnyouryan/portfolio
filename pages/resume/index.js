@@ -1,5 +1,6 @@
 import Meta from '../../components/meta'
-import { resume } from '../../data/resume'
+import { resume} from '../../data/resume'
+import { tagline, email, site, domain  } from '../../data/site'
 import styles from './index.module.css'
 
 export default function Resume() {
@@ -11,12 +12,12 @@ export default function Resume() {
           <div className={styles.info}>
             <div className={styles.title}>
               <h1>Ryan MacInnes</h1>
-              <h2>Product-Minded Programmer</h2>
+              <h2>{tagline}</h2>
             </div>
             <ul>
-              <li>ryan@m.acinn.es</li>
+              <li>{email}</li>
               <li>
-                <a href='https://m.acinn.es'>m.acinn.es</a>
+                <a href={site}>{domain}</a>
               </li>
             </ul>
           </div>
