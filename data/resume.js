@@ -3,7 +3,7 @@ export const resume = [
     title: 'Personal Projects',
     job: 'Coder',
     dates: '2019 - 2026',
-    description: 'I built an app that turns YouTube videos into podcasts, a music player, a self-hosted media server, a link manager/personal knowledgebase'
+    description: 'An app that turns YouTube videos into podcasts, a music player, a self-hosted media server, a link manager/personal knowledgebase.'
   },
   {
     title: 'Semi-Retirement',
