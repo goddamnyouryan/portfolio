@@ -8,18 +8,13 @@ export default function Resume() {
       <Meta title='Ryan MacInnes - Resume' />
       <div className={styles.layout}>
         <header className={styles.header}>
-          <img className={styles.headshot} src='/headshot.jpg' />
           <div className={styles.info}>
             <div className={styles.title}>
               <h1>Ryan MacInnes</h1>
               <h2>{tagline}</h2>
+              <h3>{email}</h3>
+              <h3>{site}</h3>
             </div>
-            <ul>
-              <li>{email}</li>
-              <li>
-                <a href={site}>{domain}</a>
-              </li>
-            </ul>
           </div>
         </header>
 
